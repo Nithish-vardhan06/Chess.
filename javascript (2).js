@@ -364,4 +364,8 @@ function checkForWin() {
         const allSquares = document.querySelectorAll('.square');
         allSquares.forEach(square => square.firstChild?.setAttribute('draggable', false));
     }
+
 }
+boardElement.addEventListener("touchstart", handleTouchStart);
+boardElement.addEventListener("touchmove", handleTouchMove);
+boardElement.addEventListener("touchend", handleTouchEnd);
