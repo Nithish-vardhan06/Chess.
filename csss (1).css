@@ -1,4 +1,9 @@
-
+.chessboard {
+  width: 100vw;
+  height: 100vw;
+  max-width: 500px;
+  max-height: 500px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -73,3 +78,4 @@ path {
 .white {
     fill: rgb(255, 255, 255)
 }
+
